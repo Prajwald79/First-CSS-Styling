@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Memoranda - Know More about me</title>
+	<hr>
+	<link rel="stylesheet" type="text/css" href="Captain.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1> Welcome to the Prajwal's Website</h1>
+    <hr>
+    <img src="Prajwal.jpg" width="200px;">
+    <p id="Special_one"> I am an Electronics and Telecommunication Enginner currently pursuing B.Tech from Sanjivani
+    	College of Engineering, Kopargaon. My objective is to utilize my technical skills and provide a
+		professional service to customers by applying
+		and honing my knowledge and working in a
+		challenging and motivating working environment.
+	</p>
+	<ul>
+		<li> Name : Prajwal Abhay Deshpande</li>
+		<li> Email: prajwaldeshpande2001@gamil.com</li>
+		<li> Phone: 7385457235</li>
+		
+	</ul>
+	<a href="https://www.linkedin.com/in/prajwal-deshpande-04699b196/" target="_blank"> Click Here for LinkedIn profile</a>
+	<ol>
+		<li> Education : B.Tech from Sanjivani College of Engineering<br> HSC from Tanwani Junior College<br> SSC from Tanwani English School</li>
+		<li> Experience: Vaave as an Student Alumni Co-ordinator</li>
+		<li> Skills: Python,<br> Web Development,<br> HTML,<br> Team Management,<br> SAP ABAP Consultant</li>
+		<li> Languages Known: English, <br>Hindi, <br>Marathi,<br> Basic German</li>
+	</ol>
+
+	<footer>
+        <p>Copyright &copy; My webiste 2022. All Rights Reserved.</p>
+        <p>Made with &hearts; in India.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+        CSS Starts from here
+        
+        
+ *{
+	font-family: Montserrat;
+}
+
+h1{
+	text-align: center;
+	color: red;
+	background-color: black;
+}
+img{
+	border-radius: 50%;
+	width: 20%;
+	margin-top: 10px;
+}
+#Special_one{
+	font-size: 20px;
+	text-decoration: underline;
+	text-anchor: unset;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
